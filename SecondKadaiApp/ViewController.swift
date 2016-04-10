@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let resultViewController : ResultViewController = segue.destinationViewController as! ResultViewController
-        resultViewController.name = "ほげほげ"
+        resultViewController.name = name.text
     }
 
     @IBAction func unwind(segue:UIStoryboardSegue){
