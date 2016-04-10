@@ -49,6 +49,9 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WlL-rV-UQd" secondAttribute="bottom" constant="268" id="neN-ke-3sf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="name" destination="f9e-xk-mVJ" id="TpR-Xi-8K3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -87,6 +90,9 @@
                             <constraint firstItem="zH2-yd-TyY" firstAttribute="top" secondItem="ScK-CU-c3U" secondAttribute="bottom" constant="88" id="uh3-Y5-40v"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greeting" destination="ScK-CU-c3U" id="ReE-b1-AfF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lmp-7U-bFJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Ik7-mD-Xjv" userLabel="Exit" sceneMemberID="exit"/>

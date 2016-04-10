@@ -10,10 +10,11 @@ import UIKit
 
 class ResultViewController: UIViewController {
 
+    @IBOutlet weak var greeting: UILabel!
+    var name : String! = "名無し"
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        greeting.text = "こんにちは\(name)さん"
     }
 
     override func didReceiveMemoryWarning() {
