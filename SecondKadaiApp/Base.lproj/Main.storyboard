@@ -78,7 +78,7 @@
                                 <rect key="frame" x="285" y="242" width="30" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
-                                    <segue destination="Ik7-mD-Xjv" kind="unwind" unwindAction="unwind:" id="s8F-5X-rto"/>
+                                    <segue destination="Ik7-mD-Xjv" kind="unwind" unwindAction="unwind:" id="qpm-IL-kbI"/>
                                 </connections>
                             </button>
                         </subviews>
